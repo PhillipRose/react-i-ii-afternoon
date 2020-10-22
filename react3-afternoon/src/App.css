@@ -1,5 +1,49 @@
 .App {
   text-align: center;
+  
 }
 
-/* design app layout here  */
+header{
+  background-color: aqua;
+  width: 75%;
+  height: 75px;
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 150px;
+}
+
+.home{
+  display: flex;
+  align-items: center;
+  /* height: 100px; */
+  padding-left: 20px;
+}
+body{
+  background-color: grey;
+}
+
+.txt-box{
+  width: 1000px;
+  height: 250px;
+  background-color: white;
+  margin-left: 200px;
+}
+
+.btn-hold{
+position: center;
+width: 600px;
+height: 40px;
+color: white;
+}
+
+button{
+  background: none;
+  border: none;
+  width: 600px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
